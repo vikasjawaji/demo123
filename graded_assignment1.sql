@@ -1,4 +1,5 @@
 use gradedassignment;
+-- feature branch changes demo  
 create table passenger( Passenger_name varchar(20), Category varchar(20), gender varchar(10), boarding_city varchar(20),
 destination_city varchar(20), distance int,  bus_type varchar(20), foreign key(bus_type) references price(bus_type));
 insert into passenger (passenger_name, category, gender, boarding_city, destination_city, distance, Bus_type) values
